@@ -1,0 +1,20 @@
+[project]
+title = "Adish's Project"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Adish's Project"
+logo = "images/apple-touch-icon.png"
+favicon = "images/favicon-32x32.png"
+primaryColor = "#F89613"
+
+[data.used_cars_data]
+type = "csv"
+path = "data/used_cars_data.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
