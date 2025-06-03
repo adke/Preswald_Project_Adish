@@ -12,7 +12,6 @@ filtered_df = query(sql, "used_cars_data")
 text("# Adish's Used Cars Project")
 table(filtered_df, title="Cars from 2010")
 
-# For matplotlib plots in preswald, use the plotly() function instead of plt.show()
 plt.figure(figsize=(10, 10))
 plt.scatter(filtered_df["KILOMETERS_DRIVEN"], filtered_df["PRICE"], alpha=0.7, color='blue')
 plt.title("Kilometers Driven vs Price (2010 Cars)")
